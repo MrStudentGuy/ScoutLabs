@@ -3,9 +3,7 @@ import {SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import {AppSidebar} from "@/components/app-sidebar";
 import {ClerkProvider} from "@clerk/nextjs";
 import { ThemeProvider } from '@/components/theme-provider';
-import {ModeToggle} from "@/components/mode-toggle";
 import {TooltipProvider} from "@/components/ui/tooltip";
-import HotkeysView from "@/components/hotkeys-view";
 export default function RootLayout({
                                        children,
                                    }: {
